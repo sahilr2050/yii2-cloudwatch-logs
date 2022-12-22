@@ -1,0 +1,29 @@
+{
+    "name": "sahilr2050/yii2-cloudwatch-logs",
+    "type": "library",
+    "description": "Yii2 Logger target to dump app logs to cloudwatch in AWS in chronological order.",
+    "version": "1.0.0",
+    "keywords": ["yii2", "log", "aws", "cloudwatch"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sahilr2050",
+            "email": "admin@seecoding.com",
+            "homepage": "https://seecoding.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sahilr2050/yii2-cloudwatch-logs/issues",
+        "source": "https://github.com/sahilr2050/yii2-cloudwatch-logs"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.15",
+        "aws/aws-sdk-php": "^3.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sahilr2050\\YiiCloudwatchLogs\\": "src/"
+        }
+    },
+}
